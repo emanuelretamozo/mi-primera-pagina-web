@@ -1,32 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título de tu página</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <style>
+                   /* Estilos para el cuerpo y encabezado */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #c2c2c2;
+            }
 
+            header {
+                background-color: #007cbd;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+
+            header h1 {
+                margin: 0;
+            }
+
+            /* Estilos para la barra de navegación */
+            nav {
+                background-color: #666;
+                padding: 10px;
+                text-align: center;
+            }
+
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 10px;
+                transition: color 0.3s ease;
+            }
+
+            nav a:hover {
+                color: #ffcc00; /* Cambia el color al pasar el cursor */
+            }
+
+            /* Estilos para las secciones */
+            section {
+                padding: 40px;
+                margin: 20px;
+                background-color: #f9f9f9;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
+            #image2 {
+                width: 30%; /* Cambia el ancho de la imagen según sea necesario */
+                height: 30%; /* Mantén la proporción de la imagen */
+                border-radius: 50%;
+            }
+
+            section h2 {
+                color: #333;
+                margin-top: 0;
+            }
+
+            section p {
+                color: #666;
+                line-height: 1.6;
+            }
+
+            /* Estilos para los enlaces */
+            a {
+                color: #007bff;
+                text-decoration: none;
+                transition: color 0.3s ease;
+            }
+
+            a:hover {
+                color: #0056b3;
+            }
+    </style>
+  </head>
+  <body>
     <header>
-        <h1>Mi Página Web</h1>
+      <h1>Mi Portafolio</h1>
     </header>
-
     <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
+      <a href="#sobre-mi">Sobre Mí</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
     </nav>
-
-    <div class="content">
-        <p>Bienvenido a mi página web. Aquí puedes encontrar información interesante.</p>
-    </div>
-
-    <footer>
-        <p>Derechos de autor &copy; 2024</p>
-    </footer>
-
-</body>
+    <section id="sobre-mi">
+      <h2>Sobre Mí</h2>
+      <img
+        src="https://images.unsplash.com/photo-1617395440873-63f6e7f25139?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="image2"/>
+      <p>
+        Aquí puedes escribir una breve descripción sobre ti, tus habilidades,
+        intereses y objetivos.
+      </p>
+    </section>
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <p>
+        Enumera tu experiencia laboral, educación, certificaciones o cualquier
+        otro logro relevante.
+      </p>
+    </section>
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <p>
+        Destaca algunos de tus proyectos más importantes o interesantes, con
+        enlaces o descripciones breves.
+      </p>
+    </section>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>
+        Proporciona información de contacto, como tu correo electrónico, número
+        de teléfono o perfiles en redes sociales.
+      </p>
+    </section>
+  </body>
 </html>
