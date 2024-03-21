@@ -24,6 +24,10 @@
                 margin: 0;
             }
 
+            h1 {
+              margin-bottom: 20px auto;
+            }
+
             /* Estilos para la barra de navegación */
             nav {
                 background-color: #666;
@@ -46,15 +50,18 @@
             section {
                 padding: 40px;
                 margin: 20px;
-                background-color: #f9f9f9;
                 border-radius: 5px;
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                
             }
 
             #image2 {
                 width: 30%; /* Cambia el ancho de la imagen según sea necesario */
                 height: 30%; /* Mantén la proporción de la imagen */
                 border-radius: 50%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             section h2 {
@@ -72,10 +79,39 @@
                 color: #007bff;
                 text-decoration: none;
                 transition: color 0.3s ease;
+                padding: 0;
+                margin-right: 10px;
             }
 
             a:hover {
                 color: #0056b3;
+            }
+
+            #sobre-mi {
+              display: block;
+              text-align: center;
+              margin-bottom: 0 auto;
+              margin-left: auto;
+              margin-right: auto;
+            }
+
+            #sobre-mi p {
+              margin-bottom: 20px auto;
+              text-align: center;
+              margin-left: auto;
+              margin-right: auto;
+            }
+
+            p {
+              max-width: 500px;
+            }
+
+            #experiencia {
+              background-color: aquamarine;
+            }
+
+            #contacto {
+              background-color: aquamarine;
             }
     </style>
   </head>
@@ -90,12 +126,19 @@
       <a href="#contacto">Contacto</a>
     </nav>
     <section id="sobre-mi">
+      <h1>Emanuel Retamozo</h1>
       <h2>Sobre Mí</h2>
       <img
         src="https://images.unsplash.com/photo-1617395440873-63f6e7f25139?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="image2"/>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/tu_perfil_de_facebook" target="_blank">Facebook</a>
+            <a href="https://twitter.com/tu_perfil_de_twitter" target="_blank">Twitter</a>
+            <a href="https://www.linkedin.com/in/tu_perfil_de_linkedin" target="_blank">LinkedIn</a>
+            <!-- Agrega más enlaces para otras redes sociales según sea necesario -->
+        </div>
       <p>
-        Aquí puedes escribir una breve descripción sobre ti, tus habilidades,
-        intereses y objetivos.
+        Me gusta mucho la tecnología y el marketing, me interesa combinar lo mejor de ambos mundos desarollando aplicaciones interesantes
+        que sean útiles para la industria y las personas.
       </p>
     </section>
     <section id="experiencia">
